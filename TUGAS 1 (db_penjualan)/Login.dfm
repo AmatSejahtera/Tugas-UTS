@@ -1,0 +1,89 @@
+object Form2: TForm2
+  Left = 192
+  Top = 137
+  Width = 422
+  Height = 218
+  Caption = 'Login'
+  Color = clCream
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object lbl1: TLabel
+    Left = 160
+    Top = 8
+    Width = 57
+    Height = 24
+    Caption = 'LOGIN'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -20
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lbl2: TLabel
+    Left = 16
+    Top = 40
+    Width = 82
+    Height = 19
+    Caption = 'USERNAME'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lbl3: TLabel
+    Left = 16
+    Top = 80
+    Width = 85
+    Height = 19
+    Caption = 'PASSWORD'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object btn1: TButton
+    Left = 80
+    Top = 112
+    Width = 89
+    Height = 33
+    Cancel = True
+    Caption = 'LOGIN'
+    TabOrder = 0
+    OnClick = btn1Click
+  end
+  object edt1: TEdit
+    Left = 112
+    Top = 40
+    Width = 257
+    Height = 21
+    TabOrder = 1
+  end
+  object btn2: TButton
+    Left = 216
+    Top = 112
+    Width = 89
+    Height = 33
+    Caption = 'CLOSE'
+    TabOrder = 2
+    OnClick = btn2Click
+  end
+  object edt2: TEdit
+    Left = 112
+    Top = 80
+    Width = 257
+    Height = 21
+    TabOrder = 3
+    Text = '123'
+  end
+end
